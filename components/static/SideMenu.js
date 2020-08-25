@@ -32,6 +32,15 @@ export default function SideMenu() {
             <i className="material-icons side-menu-icon">devices</i>Slaves
           </span>
         </CustomLink>
+		<CustomLink
+          className="mdl-navigation__link"
+          activeClassName="active"
+          href="/scans"
+        >
+          <span>
+            <i className="material-icons side-menu-icon">lock_open</i>Vulnerability Scans
+          </span>
+        </CustomLink>
       </nav>
     </div>
   );
